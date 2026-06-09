@@ -1,4 +1,4 @@
-# 🚗 Car Price Prediction — End-to-End Machine Learning Project
+#  Car Price Prediction — End-to-End Machine Learning Project
 
 **Bootcamp Assignment 2 | Linear Regression**
 **Author:** Dan Shizamuayi Shina
