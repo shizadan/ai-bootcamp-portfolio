@@ -23,6 +23,7 @@ This project uses a dataset of 1,025 patient records with 13 clinical features (
 |---|---|---|
 | Logistic Regression | 0.8098 | 0.9298 |
 | Random Forest | 1.0000 | 1.0000 |
+> **Note:** The Random Forest's perfect score (1.0) likely indicates overfitting or data leakage (this dataset is known to contain duplicate/near-duplicate rows). The Logistic Regression result (81% accuracy, 0.93 AUC) is a more realistic estimate of real-world performance. For production use, further validation with cross-validation and a held-out, de-duplicated test set would be needed.
 
 ## Tech Stack
 - Python, pandas, scikit-learn
