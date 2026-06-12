@@ -21,8 +21,8 @@ This project uses a dataset of 1,025 patient records with 13 clinical features (
 ## Results
 | Model | Accuracy | ROC-AUC |
 |---|---|---|
-| Logistic Regression | [add score] | [add score] |
-| Random Forest | [add score] | [add score] |
+| Logistic Regression | 0.8098 | 0.9298 |
+| Random Forest | 1.0000 | 1.0000 |
 
 ## Tech Stack
 - Python, pandas, scikit-learn
