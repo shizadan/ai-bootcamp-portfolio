@@ -2,8 +2,10 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load('heart_disease_model.pkl')
-scaler = joblib.load('scaler.pkl')
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model = joblib.load(os.path.join(BASE_DIR, 'heart_disease_model.pkl'))
+scaler = joblib.load(os.path.join(BASE_DIR, 'scaler.pkl'))
 
 st.title("❤️ Heart Disease Prediction")
 st.write("Enter patient details to predict heart disease risk.")
